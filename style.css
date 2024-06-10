@@ -155,7 +155,31 @@ p{
 @media (max-width:767px ){
     .game-box{
         display: flex;
-        flex-direction: column;
         width:80%;
+    }
+    h1{
+        font-size: 32px;
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+        font-family: "Inter", sans-serif;
+        user-select: none;
+    
+    }
+    .player-dice{
+    
+        box-shadow: 5px 5px 30px -12px rgb(161, 161, 161);
+        width:90px;
+        height: 90px;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dice-dot{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(236, 236, 236);
     }
 }
